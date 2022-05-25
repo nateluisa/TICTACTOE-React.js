@@ -8,19 +8,9 @@ style="background: #c00;
 </div>
 
 <div id="root"></div>
-<div>
-    <button onclick="location.reload();">Novo jogo</button>
-</div>
 
 <script>
-    
 
-function reload() {
-    const reloadButton = document.querySelector("#reload");
-    reload = location.reload();
-}
-
-reloadButton.addEventListener("click", reload, false);
 window.addEventListener('mousedown', function(e) {
   document.body.classList.add('mouse-navigation');
   document.body.classList.remove('kbd-navigation');
